@@ -1,17 +1,18 @@
 {
   "name": "yaoxfly-flexible",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "兼容pc的flexible库,让pc愉快使用rem",
   "private": false,
   "main": "lib/flexible.js",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "license": "MIT",
   "author": "yaoxfly",
   "repository": {
     "type": "git",
     "url": "https://gitee.com/yaoxfly/yaoxfly-flexible.git"
   },
-
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -36,7 +37,10 @@
     "env": {
       "node": true
     },
-    "extends": ["plugin:vue/essential", "eslint:recommended"],
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
     "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
@@ -47,5 +51,8 @@
       "autoprefixer": {}
     }
   },
-  "browserslist": ["> 1%", "last 2 versions"]
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }
