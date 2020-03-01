@@ -1,6 +1,6 @@
 {
   "name": "yaoxfly-flexible",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "兼容pc的flexible库,让pc愉快使用rem",
   "private": false,
   "main": "lib/flexible.js",
